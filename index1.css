@@ -1,0 +1,78 @@
+main{
+    color: black;
+}
+.container{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 40px;
+    margin-top: 25px; 
+    height: 100px; 
+
+}
+#events{
+    background-color: rgb(15, 161, 167);
+    color: white;
+    border: none;
+    box-shadow: 0 0 25px 0 rgb(63, 63, 63);
+    padding: 20px;
+    font-size: 16px;
+    align-items: center;
+    margin: auto; 
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+h2{
+    text-align: center;
+    font-size: 27px;
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+.details{
+    width: 70%;
+    margin-left: 15%;
+    font-size: 18px;
+    padding: 5px;
+}
+p{
+   color: #3e4144;
+}
+.lead-date{
+    color: #242323;
+    font-weight: 550;
+}
+.highlights{
+    margin: 15px 0;
+    padding: 20px;
+    background-color: #f3e3e3;
+    border-left: 5px solid #bb4d63;
+    font-style: italic;
+    color: #77041f;
+}
+.icon{
+    margin-top: 70px;
+    background-color: orange;
+    padding:10px;
+    border-radius: 10px;
+
+  }
+  .icon a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Georgia', serif;
+    text-align: center;
+  }

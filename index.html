@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsroom</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<style>
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgb(26, 200, 206);
+        padding: 10px;
+        text-align: center;
+        height: 50px;
+    }
+    nav{ 
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin-top: 70px;
+        background-color: rgb(15, 161, 167);
+        padding: 10px;
+        height: 50px;
+        width: 100%;
+    }
+    nav ul{
+        text-align: center;
+        margin-right: 20px;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 0px;
+        margin: 0 5px;
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        list-style-type: none;
+        font-size: 17px;
+        text-transform: uppercase;
+        padding: 7px 13px;
+        border-radius: 3px;
+    }
+    a.active, a:hover{
+        background-color: rgb(180, 233, 234);
+        color: black;
+        transition: .5s;
+    }
+    /*
+    .checkbtn{
+        font-size: 30px;
+        color: white;
+        line-height: 80px;
+        float: right;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    #check{
+        display: none;
+    }*/
+    @media (max-width:858px){
+        nav ul li a{
+            font-size: 16px;
+            text-decoration: none;
+            list-style-type: none;
+        }
+        #events{
+            margin-top: 140px;
+            font-size: 16px;
+        }
+    }
+    @media (max-width:615px){
+        nav ul li a{
+            font-size: 10px;
+            text-decoration: none;
+            list-style-type: none;
+        }
+        #events{
+            margin-top: 120px;
+            font-size: 10px;
+        }
+    }
+</style>
+<body>
+    <header class="logo">
+        <img src="https://www.rumaoeducationaltrust.education/assets/images/logo.jpg" class="logo" alt="asset" height="45px" width="200px">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="index5.html">About Us</a></li>
+            <li><a href="index6.html">Community</a></li>
+            <li><a href="index7.html">News and Events</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <button type="button" id="events">EVENTS</button>
+    </div>
+    <!-- content -->
+     <div class="block-label">
+        <div class="left">
+            <p>
+                <a href="index1.html">Independence Day ‘24</a><br><br>
+                <span>15/07/2024</span>
+            </p>
+        </div>
+        <div class="right">
+            <button type="button" id="view">
+                <a href="index1.html">View More</a>
+            </button>
+        </div>
+     </div>
+     <div class="block-label">
+        <div class="left">
+            <p>
+                <a href="index2.html">Environment Week ‘24</a><br><br>
+                <span>03/06/2024</span>
+            </p>
+        </div>
+        <div class="right">
+            <button type="button" id="view">
+                <a href="index2.html">View More</a>
+            </button>
+        </div>
+     </div>
+     <div class="block-label">
+        <div class="left">
+            <p>
+                <a href="index3.html">International Yoga Day ‘24</a><br><br>
+                <span>21/07/2024</span>
+            </p>
+        </div>
+        <div class="right">
+            <button type="button" id="view">
+                <a href="index3.html">View More</a>
+            </button>
+        </div>
+     </div>
+     <div class="block-label">
+        <div class="left">
+            <p>
+                <a href="index4.html">Annual Day '22</a><br><br>
+                <span>15/12/2022</span>
+            </p>
+        </div>
+        <div class="right">
+            <button type="button" id="view">
+                <a href="index4.html">View More</a>
+            </button>
+        </div>
+     </div>
+</body>
+</html>

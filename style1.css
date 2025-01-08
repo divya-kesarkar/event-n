@@ -1,0 +1,207 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Base styling for the site header */
+.site-header {
+  background-color: rgb(15, 161, 167); /* Optional background color */
+  display: flex;
+  align-items: center;
+}
+
+/* Container adjustments */
+.site-header .container {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo styling */
+.site-header .py-2 img {
+  height: 100%;
+  width: auto; /* Maintain aspect ratio */
+  max-height: 60px; /* Adjust the max height as needed */
+}
+
+/* Navigation link styling */
+.site-header a {
+  color: #fff;                /* White text color */
+  text-decoration: none;      /* Remove underline */
+  padding: 0.5rem 1rem;       /* Add padding for spacing */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Hover effect for links */
+.site-header a:hover {
+  color: #FFD700;             /* Optional: Gold color on hover */
+}
+
+/* For better alignment and spacing */
+.site-header .py-2 {
+  display: flex;
+  align-items: center;
+}
+
+
+/*---------------------------*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  background-color: rgb(15, 161, 167);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(243, 174, 46);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-button:hover {
+  background-color: rgb(243, 174, 46);
+}
+
+#Admission{
+  background-color: rgb(7, 7, 74);
+  color: white;
+}
+
+/* Custom styling */
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.diamond-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.diamond {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    background-color: #6c757d;
+    color: white;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.diamond:hover {
+    transform: rotate(45deg) scale(1.1);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.diamond span {
+    display: block;
+    transform: rotate(-45deg); /* Re-align text */
+    font-size: 14px;
+}
+/* Color themes */
+.diamond:nth-child(1) { background-color: #ff9f43; }
+.diamond:nth-child(2) { background-color: #ee5253; }
+.diamond:nth-child(3) { background-color: #48dbfb; }
+.diamond:nth-child(4) { background-color: #5f27cd; }
+.diamond:nth-child(5) { background-color: #1dd1a1; }
+.diamond:nth-child(6) { background-color: #ff6b6b; }
+.diamond:nth-child(7) { background-color: #341f97; }
+.diamond:nth-child(8) { background-color: #54a0ff; }
+@media (max-width: 768px) {
+    .diamond {
+        width: 100px;
+        height: 100px;
+        font-size: 12px;
+    }
+}
+
+/* From Uiverse.io by mobinkakei */ 
+.btn {
+    width: 140px;
+    height: 50px;
+    background: linear-gradient(to top, #00154c, #12376e, #23487f);
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    margin-left: 44%;
+  }
+  
+  .btn span {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: top 0.5s;
+  }
+  
+  .btn-text-one {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  .btn-text-two {
+    position: absolute;
+    width: 100%;
+    top: 150%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  .btn:hover .btn-text-one {
+    top: -100%;
+  }
+  
+  .btn:hover .btn-text-two {
+    top: 50%;
+  }
+  
+  .icon{
+    margin-top: 70px;
+    background-color: orange;
+    padding:10px;
+
+  }
+  .icon a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Georgia', serif;
+    text-align: center;
+  }
+  
